@@ -8,108 +8,120 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-  <main class="h-full bg-no-repeat" style="background-image: url('./massms/main-background.svg')">
-    <header class="p-[25px] flex justify-between md:items-end">
-      <div class="h-[120px] w-[120px] md:h-auto md:w-auto">
-        <img class="w-[100px] h-auto md:w-[140px]" src="./massms/masmss.svg" alt="">
-      </div>
+<body class="">
+  <main class="lg:relative h-full bg-no-repeat overflow-hidden sm:flex sm:flex-col-reverse md:block" style="background-image: url('./massms/main-background.svg')">
+    <img class="hidden lg:right-[-20%] xl:right-[-10%] lg:top-16 sm:mt-20 sm:block md:absolute md:top-[11.5%] md:max-w-max md:w-[700px] md:right-[-18%] lg:w-[1000px] md:mt-[8%]" src="./massms/main-model.svg" alt="">
+    <div class="lg:w-[80%] lg:m-auto">
 
-      <div class="hidden md:flex justify-between items-end text-sm">
-        <div>
-          <ul class="text-gray-400 gap-3 ml-12 flex rounded-full p-[8px] border-[0.5px] border-transparent">
-            <li>Home</li>
-            <li>Solutions</li>
-            <li>Pricing</li>
-            <li>API Guide</li>
-            <li>Blog</li>
-          </ul>
+      <header class="p-[25px] flex justify-between md:items-start">
+        <div class="h-[120px] w-[120px] md:h-auto md:w-auto">
+          <img class="w-[100px] h-auto md:w-[140px]" src="./massms/masmss.svg" alt="">
         </div>
-        <div class="text-gray-400 flex mt-1">
-          <button class="ml-12 rounded-full p-[8px] pl-[22px] pr-[22px] border-[0.5px] border-white">Log in</button>
-          <button class="text-[#2a1844] font-bold bg-yellow-300 ml-2 rounded-full p-[8px] pl-[22px] pr-[22px] border-[0.5px] border-transparent">Try now</button>
-        </div>
-      </div>
-      <img class="w-[43px] h-[38px] md:hidden" src="./massms/menu.png" alt="">
-    </header>
-
-    <div class="md:flex md:items-start">
-
-      <div class="text-white flex flex-col items-center m-[20px] md:mt-[13%] md:mb-[9%]">
-        <h1 class="text-6xl ml-auto mr-auto font-black text-center md:text-left leading-[60px] max-w-[300px] md:max-w-[400px]">Unlimited Bulk SMS.</h1>
-        <p class="text-center md:text-left mt-[20px] mb-8 text-[10px] sm:text-sm w-[316px] md:w-[400px] tracking-wider text-[#d1e8f9]">Massms is a fully-featured SMS & mobile marketing platform that doesn't stop you from scrolling.</p>
-        
-        <div class="md:w-[100%]">
-          <button class="bg-yellow-300 rounded-full flex items-center justify-center w-72 md:w-64">
-            <p class="p-3 pl-auto pr-auto text-[10px] sm:text-sm font-semibold text-[#2a1844]">Try it out for free</p>
-            <img src="./massms/arrow-right.svg" alt="" width="20px">
-          </button>
-          <div class="mt-6 text-[10px] sm:text-sm flex">
-            <span class="flex">
-              <img class="mr-2" src="./massms/yellow-check.svg" alt="" width="14px">
-              2-minute setup
-            </span>
-            <span class="ml-3 flex">
-              <img class="mr-2" src="./massms/yellow-check.svg" alt="" width="14px">
-              No credit card required
-            </span>
+  
+        <div class="hidden md:flex justify-between items-end text-sm">
+          <div>
+            <ul class="text-gray-400 gap-3 xl:gap-12 ml-12 flex rounded-full p-[8px] border-[0.5px] border-transparent">
+              <li>Home</li>
+              <li>Solutions</li>
+              <li>Pricing</li>
+              <li>API Guide</li>
+              <li>Blog</li>
+            </ul>
+          </div>
+          <div class="text-gray-400 flex mt-1">
+            <button class="ml-12 xl:ml-[100px] rounded-full p-[8px] pl-[22px] pr-[22px] border-[0.5px] border-white">Log in</button>
+            <button class="text-[#2a1844] font-bold bg-[#ffe367] ml-2 rounded-full p-[8px] pl-[22px] pr-[22px] border-[0.5px] border-transparent">Try now</button>
           </div>
         </div>
-
-      </div>
+        <img class="w-[43px] h-[38px] md:hidden" src="./massms/menu.png" alt="">
+      </header>
   
-      <div class="">
+      <div class="md:flex md:items-start z-50">
+        <div class="text-white flex flex-col items-center m-[20px] md:mt-[13%] md:mb-[9%] xl:mb-[16%]">
+          <h1 class="text-6xl xl:text-7xl ml-auto mr-auto font-black text-center md:text-left leading-[60px] max-w-[300px] md:max-w-[400px] xl:max-w-max xl:w-[500px]">Unlimited Bulk SMS.</h1>
+          <p class="text-center md:text-left mt-[20px] mb-8 text-[10px] sm:text-sm xl:text-base w-[316px] xl:w-[500px] md:w-[400px] tracking-wider text-[#d1e8f9]">Massms is a fully-featured SMS & mobile marketing platform that doesn't stop you from scrolling.</p>
+          
+          <div class="md:w-[100%]">
+            <button class="bg-[#ffe367] rounded-full flex items-center justify-center w-72 md:w-64">
+              <p class="p-3 pl-auto pr-auto text-[10px] sm:text-sm font-semibold text-[#2a1844]">Try it out for free</p>
+              <img src="./massms/arrow-right.svg" alt="" width="20px">
+            </button>
+            <div class="mt-6 text-[10px] sm:text-sm flex">
+              <span class="flex">
+                <img class="mr-2" src="./massms/yellow-check.svg" alt="" width="14px">
+                2-minute setup
+              </span>
+              <span class="ml-3 flex">
+                <img class="mr-2" src="./massms/yellow-check.svg" alt="" width="14px">
+                No credit card required
+              </span>
+            </div>
+          </div>
+        </div>
+  
         <img class="mt-16 sm:hidden" src="./massms/main-model-1.png">
-        <img class="hidden sm:relative sm:block md:absolute md:max-w-max md:w-[700px] md:right-[-18%] md:mt-[8%]" src="./massms/main-model.svg" alt="">
       </div>
-      
+
     </div>
-    
   </main>
 
-  <section class="bg-white flex flex-col items-center justify-center">
-      
-    <section class="m-[25px] mt-10 ml-[18px] mr-[18px] bg-white flex flex-col items-center justify-center md:m-0 md:mt-10">
-      <div class="text-center md:flex md:flex-col md:items-center">
-          <h2 class="leading-[22px] text-xl font-extrabold text-[#2a1844] max-w-[270px]">Setup <span class="text-[#49aae7]">Smart & Bulk SMS </span> For Your Brand in Minutes</h2>
-          <p class="leading-[18px] max-w-[270px] md:max-w-[75%] mt-4 text-gray-400">Setup automated text messaging throughout your business operations in just a few minutes, and scale without worrying about upgrades and extra costs!</p>
+  <section class="bg-white lg:mt-14 flex flex-col overflow-hidden items-center justify-center relative">
+
+    <img class="hidden md:block absolute z-0 right-[-170px] top-[15px] w-[550px] xl:w-[581px]" src="./massms/blue-circle.svg" alt="">
+    <img class="hidden md:block absolute z-0 left-[-281px] top-[762px] lg:top-[151px] w-[672px] lg:w-[550px] xl:w-[727px] xl:left-[-353px]" src="./massms/blue-circle.svg" alt="">
+
+    <section class="m-[25px] mt-10 ml-[18px] mr-[18px] bg-white flex flex-col items-center justify-center md:m-0 md:mt-10 w-full">
+
+      <div class="text-center md:flex md:flex-col md:items-center relative">
+        <h2 class="leading-[22px] lg:leading-[28px] text-xl lg:text-2xl xl:text-3xl xl:w-[390px] lg:max-w-fit lg:w-[320px] font-extrabold text-[#2a1844] max-w-[270px]">Setup <span class="text-[#49aae7]">Smart & Bulk SMS </span> For Your Brand in Minutes
+        </h2>
+        <p class="leading-[18px] max-w-[270px] md:max-w-[75%] lg:max-w-fit lg:w-[650px] mt-4 text-gray-400">Setup automated text messaging throughout your business operations in just a few minutes, and scale without worrying about upgrades and extra costs!
+        </p>
       </div>
       
-      <div class="mt-10 relative overflow-visible">
+      <div class="mt-10 relative w-full verflow-visible md:w-full md:flex md:flex-col md:items-center">
 
 
-        <img class="md:hidden sm:left-[-65%] absolute object-cover object-right h-full w-full top-[4.8%] left-[-22%] z-0" src="./massms/blue-circle.svg" alt="">
+        <img class="md:hidden sm:left-[-65%] md:left-0 absolute object-cover object-right h-full w-full top-[24px] left-[-22%] z-0" src="./massms/blue-circle.svg" alt="">
 
-        <section class="m-[20px] -ml-1 -mr-1 flex flex-col justify-center items-center md:items-start md:m-0 mt-7 lg:grid lg:mt-14 lg:grid-cols-3 lg:gap-2">
+        <section class="m-[20px] -ml-1 -mr-1 flex flex-col justify-center items-center md:items-start md:m-0 mt-7 lg:grid lg:mt-14 lg:grid-cols-3 lg:gap-4">
           <div class="text-[#2a1844] relative z-10">
             <h3 class="pl-5 text-[#2a1844] font-extrabold text-sm"><span class="text-[#49aae7] pt-8">#1:</span> Install App </h3>
-  
-            <div class="w-[288px] relative">
-              <div class="shadow-lg rounded-lg mt-4 pt-2 bg-black">
-                <p class="pl-5 pb-5 max-w-[50%] leading-[18px] text-gray-500">Scan a QR code and instantly install the mobile app on your android device.
-                </p>
+            
+            <div class="lg:flex lg:justify-center lg:items-center">
+              <div class="w-[288px] relative">
+                <div class="shadow-lg rounded-lg mt-4 pt-2 bg-white">
+                  <p class="pl-5 pb-5 max-w-[50%] leading-[18px] text-gray-500">Scan a QR code and instantly install the mobile app on your android device.
+                  </p>
+                </div>
+                <img class="absolute right-[-30px] top-[-30px] md:top-[-30px]" src="./massms/install-app.svg" alt="" width="180.6px">
               </div>
-              <img class="absolute right-[-30px] top-[-30px] md:top-[-30px]" src="./massms/install-app.svg" alt="" width="180.6px">
-            </div>
+              <img class="hidden lg:block ml-4" src="./massms/double-arrow-right.png" alt="" width="12px">
+            </div>  
+
           </div>
   
           <div class="text-[#2a1844] relative z-10 mt-[70px] lg:mt-0">
             <h3 class="pl-5 text-[#2a1844] font-extrabold text-sm"><span class="text-[#49aae7] pt-8">#2:</span> Import Contacts</h3>
             
-            <div class="w-[288px] relative">
-              <div class="shadow-lg md:pb-8 rounded-lg mt-4 pt-3 bg-black">
-                <p class="pl-5 pb-5 max-w-[80%] leading-[18px] text-gray-500">Upload any csv file with your contacts and <br> you're all set!
-                </p>
+            <div class="lg:flex lg:justify-center lg:items-center">
+              <div class="w-[288px] relative">
+                <div class="shadow-lg md:pb-8 rounded-lg mt-4 pt-3 bg-white">
+                  <p class="pl-5 pb-5 max-w-[80%] leading-[18px] text-gray-500">Upload any csv file with your contacts and <br> you're all set!
+                  </p>
+                </div>
+                <img class="absolute right-[-60px] top-[-15px] lg:top-[-2px]" src="./massms/import-contact.svg" alt="" width="303.6px">
               </div>
-              <img class="absolute right-[-60px] top-[-15px]" src="./massms/import-contact.svg" alt="" width="303.6px">
-            </div>
+              <img class="hidden lg:block ml-4" src="./massms/double-arrow-right.png" alt="" width="12px">
+            </div>            
+
           </div>
   
           <div class="text-[#2a1844] relative z-10 mt-28 lg:mt-0">
             <h3 class="pl-5 text-[#2a1844] font-extrabold text-sm"><span class="text-[#49aae7] pt-8">#3:</span> Schedule SMS </h3>
   
             <div class="w-[288px] relative">
-              <div class="shadow-lg rounded-lg mt-4 pt-3 pb-4 md:pb-[14px] bg-black">
+              <div class="shadow-lg rounded-lg mt-4 pt-3 pb-4 md:pb-[14px] bg-white">
                 <p class="pl-5 pb-5 max-w-[70%] leading-[18px] text-gray-500">Formulate your message, choose a contacts <br> group, and schedule your campaign.
                 </p>
               </div>
@@ -121,38 +133,41 @@
 
       </div>
 
-
     </section>
 
-    <section class="flex flex-col justify-center items-center relative overflow-hidden">
-      <img class="md:hidden sm:left-[50%] absolute object-cover object-left h-full w-[100%] top-[3%] left-0 right-10 z-0" src="./massms/blue-circle.svg" alt="">
+    <section class="flex flex-col justify-center items-center relative w-full overflow-hidden">
+      <img class="md:hidden sm:left-[50%] absolute object-cover object-left h-full w-[100%] top-[83px] left-0 right-10z-0" src="./massms/blue-circle.svg" alt="">
 
       <section class="sm:mt-36 m-2 mt-16 md:mt-16 text-center flex flex-col md:flex-row items-center justify-center z-10">
         <img class="mt-12 z-10 hidden md:block" src="./massms/masss.png" alt="" width="349px">
         <div class="flex flex-col md:ml-12 items-center">
-          <div class="ml-2 mr-2 md:ml-0 md:mr-0 flex flex-col items-center md:items-start">
-            <h2 class="leading-[22px] text-lg font-extrabold text-[#2a1844] w-[83%] text-center md:text-left">Let Your Mobile Courier Do All The Heavy Lifting,</h2>
-            <h2 class="leading-[26px] text-lg font-extrabold text-[#49aae7]"> While We Take Care of The Rest.</h2>
-            <p class="leading-[14px] mt-2 text-gray-400 text-[12px] md:text-start">You're already paying for an unlimited data plan, but with Massms, you'll actually be using it.</p>
-          </div>
-          <button class="bg-yellow-300 rounded-full flex justify-center items-center w-[130.6px] mt-7">
-            <p class="p-3 ml-[-11px] pr-2 text-[10px] sm:text-sm font-semibold text-black">Start free</p>
-            <img src="./massms/arrow-right.svg" alt="" width="20px">
-          </button>
+          <div class="flex flex-col items-center md:items-start">
+
+            <div class="ml-2 mr-2 md:ml-0 md:mr-0 flex flex-col items-center md:items-start">
+              <h2 class="leading-[22px] text-lg font-extrabold text-[#2a1844] w-[83%] text-center md:text-left">Let Your Mobile Courier Do All The Heavy Lifting,</h2>
+              <h2 class="leading-[26px] text-lg font-extrabold text-[#49aae7]"> While We Take Care of The Rest.</h2>
+              <p class="leading-[14px] mt-2 text-gray-400 text-[12px] md:text-start">You're already paying for an unlimited data plan, but with Massms, you'll actually be using it.</p>
+            </div>
   
-          <div class="text-[14px]">
-            <span class="flex mt-8">
-              <img class="mr-3" src="./massms/like.svg" alt="" width="15px">
-              <p class="text-gray-500">No credit card required</p>
-            </span>
-            <span class="flex mt-2">
-              <img class="mr-3" src="./massms/like.svg" alt="" width="15px">
-              <p class="text-gray-500">Live chat support</p>
-            </span>
-            <span class="flex mt-2">
-              <img class="mr-3" src="./massms/like.svg" alt="" width="15px">
-              <p class="text-gray-500">Quick Setup</p>
-            </span>
+            <button class="bg-yellow-300 rounded-full flex justify-center items-center w-[130.6px] mt-7">
+              <p class="p-3 ml-[-11px] pr-2 text-[10px] sm:text-sm font-semibold text-black">Start free</p>
+              <img src="./massms/arrow-right.svg" alt="" width="20px">
+            </button>
+    
+            <div class="text-[14px]">
+              <span class="flex mt-8">
+                <img class="mr-3" src="./massms/like.svg" alt="" width="15px">
+                <p class="text-gray-500">No credit card required</p>
+              </span>
+              <span class="flex mt-2">
+                <img class="mr-3" src="./massms/like.svg" alt="" width="15px">
+                <p class="text-gray-500">Live chat support</p>
+              </span>
+              <span class="flex mt-2">
+                <img class="mr-3" src="./massms/like.svg" alt="" width="15px">
+                <p class="text-gray-500">Quick Setup</p>
+              </span>
+            </div>
           </div>
   
           <img class="mt-12 z-10 md:hidden" src="./massms/masss.png" alt="" width="349px">
@@ -162,64 +177,65 @@
     
 
     </section>
+  </section>
 
+  <section class="mt-14 h-fit overflow-hidden relative">
+    <div class="w-full flex flex-col relative h-fit overflow-hidden">
+      <img class="md:hidden absolute z-0 left-[-50%] top-[-15%]" src="./massms/decor1.png" alt="">
+      <img class="md:hidden absolute h-[50%] z-50 right-[-28%] sm:right-[-18%] sm:h-[75%] top-[-18%]" src="./massms/decor2.png" alt="">
+      <img class="sm:w-[500px] md:hidden absolute left-[25px] h-full sm:h-fit sm:left-[11%] sm:object-cover w-[85%] z-10" src="./massms/blue-circle.svg" alt="">
+      <div class="z-20 flex flex-col items-center justify-center mt-10 -ml-2 -mr-2">
+        <img src="./massms/robust-robot-icon.svg" alt="" width="75px">
+        <h2 class="text-center text-base md:text-2xl md:w-[300px] leading-[22px] w-[62%] font-extrabold text-[#2a1844] mt-1">Robust, Comprehensive, <span class="font-extrabold text-[#49aae7]"> Fully-Documented </span> API</h2>
 
+        <p class="text-center text-sm leading-[15px] tracking-wider mt-4 text-[#49aae7] font-semibold w-[79%] sm:w-[60%] md:w-[455px]">Seamlessly connect your CPRM, ERPS, marketing platforms, and most popular business management and marketing systems.</p>
+        <p class="text-center text-sm tracking-wider leading-[15px] md:mt-1 mt-[2px] text-gray-400 w-[77%] md:w-[529px]">(Our extensive API was designed with simplicity in mind, while encompassing enough features to allow for usage versatility from a variety of users.)</p>
 
-
-    <section class="mt-14 h-fit overflow-hidden relative">
-      <div class="w-full flex flex-col relative h-fit overflow-visible">
-        <img class="md:hidden absolute z-0 left-[-50%] top-[-15%]" src="./massms/decor1.png" alt="">
-        <img class="md:hidden absolute h-[50%] z-50 right-[-28%] sm:right-[-18%] sm:h-[75%] top-[-18%]" src="./massms/decor2.png" alt="">
-        <img class="md:hidden absolute left-[25px] h-full sm:w-[90%] sm:h-fit sm:left-[32px] sm:object-cover w-[85%] z-10" src="./massms/blue-circle.svg" alt="">
-        <div class="z-20 flex flex-col items-center justify-center mt-10 -ml-2 -mr-2">
-          <img src="./massms/robust-robot-icon.svg" alt="" width="75px">
-          <h2 class="text-center text-base leading-[22px] w-[62%] font-extrabold text-[#2a1844] mt-1">Robust, Comprehensive, <span class="font-extrabold text-[#49aae7]"> Fully-Documented </span> API</h2>
-          <p class="text-center text-sm leading-[15px] tracking-wider mt-4 text-[#49aae7] font-semibold w-[79%]">Seamlessly connect your CPRM, ERPS, marketing platforms, and most popular business management and marketing systems.</p>
-          <p class="text-center text-sm tracking-wider leading-[15px] mt-4 text-gray-400 w-[77%]">(Our extensive API was designed with simplicity in mind, while encompassing enough features to allow for usage versatility from a variety of users.)</p>
-        </div>
+        
       </div>
+    </div>
 
-      <div class="flex flex-col justify-center items-center z-20 relative">
-        <div class="pr-4 tracking-wider md:mt-20 md:grid md:grid-cols-3 md:items-start md:text-xs">
-          <span class="flex mt-8 md:mt-1">
-            <img class="mr-5" src="./massms/star.svg" alt="" width="20px">
-            <p class="text-gray-400">OTP authentication</p>
-          </span>
-          <span class="flex mt-1">
-            <img class="mr-5" src="./massms/star.svg" alt="" width="20px">
-            <p class="text-gray-400">Cart abandonment funnels</p>
-          </span>
-          <span class="flex mt-1">
-            <img class="mr-5" src="./massms/star.svg" alt="" width="20px">
-            <p class="text-gray-400">eCommerce autoresponders</p>
-          </span>
-          <span class="flex mt-1">
-            <img class="mr-5" src="./massms/star.svg" alt="" width="20px">
-            <p class="text-gray-400">Seasonal promotions</p>
-          </span>
-          <span class="flex mt-1">
-            <img class="mr-5" src="./massms/star.svg" alt="" width="20px">
-            <p class="text-gray-400">Two-factor authentication</p>
-          </span>
-          <span class="flex mt-1">
-            <img class="mr-5" src="./massms/star.svg" alt="" width="20px">
-            <p class="text-gray-400">Integrate SMS into your apps</p>
-          </span>
-          <span class="flex mt-1">
-            <img class="mr-5" src="./massms/star.svg" alt="" width="20px">
-            <p class="text-gray-400">Sync contacts from your CRM</p>
-          </span>
-          <span class="flex mt-1">
-            <img class="mr-5" src="./massms/star.svg" alt="" width="20px">
-            <p class="text-gray-400">Create complex chat bots</p>
-          </span>
-          <span class="flex mt-1 mb-16 md:mb-0">
-            <img class="mr-5" src="./massms/star.svg" alt="" width="20px">
-            <p class="text-gray-400">And more... !</p>
-          </span>
-        </div>
+    <div class="lg:mt-12 flex flex-col justify-center items-center z-20 relative">
+      <div class="pr-4 tracking-wider md:mt-6 md:mb-20 md:grid lg:gap-x-[10rem] md:grid-cols-3 md:items-start md:text-xs">
+        <span class="flex mt-8 md:mt-1">
+          <img class="mr-5" src="./massms/star.svg" alt="" width="20px">
+          <p class="text-gray-400">OTP authentication</p>
+        </span>
+        <span class="flex mt-1">
+          <img class="mr-5" src="./massms/star.svg" alt="" width="20px">
+          <p class="text-gray-400">Cart abandonment funnels</p>
+        </span>
+        <span class="flex mt-1">
+          <img class="mr-5" src="./massms/star.svg" alt="" width="20px">
+          <p class="text-gray-400">eCommerce autoresponders</p>
+        </span>
+        <span class="flex mt-1">
+          <img class="mr-5" src="./massms/star.svg" alt="" width="20px">
+          <p class="text-gray-400">Seasonal promotions</p>
+        </span>
+        <span class="flex mt-1">
+          <img class="mr-5" src="./massms/star.svg" alt="" width="20px">
+          <p class="text-gray-400">Two-factor authentication</p>
+        </span>
+        <span class="flex mt-1">
+          <img class="mr-5" src="./massms/star.svg" alt="" width="20px">
+          <p class="text-gray-400">Integrate SMS into your apps</p>
+        </span>
+        <span class="flex mt-1">
+          <img class="mr-5" src="./massms/star.svg" alt="" width="20px">
+          <p class="text-gray-400">Sync contacts from your CRM</p>
+        </span>
+        <span class="flex mt-1">
+          <img class="mr-5" src="./massms/star.svg" alt="" width="20px">
+          <p class="text-gray-400">Create complex chat bots</p>
+        </span>
+        <span class="flex mt-1 mb-16 md:mb-0">
+          <img class="mr-5" src="./massms/star.svg" alt="" width="20px">
+          <p class="text-gray-400">And more... !</p>
+        </span>
       </div>
-    </section>
+    </div>
+  </section>
 
 </body>
 </html>
